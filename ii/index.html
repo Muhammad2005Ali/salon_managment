@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Color on Button Click</title>
+<style>
+  /* Optional: CSS for styling */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  li {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<!-- List items to change color -->
+<ul>
+  <li id="listItem">List Item</li>
+</ul>
+
+<!-- Button to trigger color change -->
+<button class="button" onclick="changeColor()">Change Color</button>
+
+<script>
+  // Function to change color
+  function changeColor() {
+    var listItem = document.getElementById('listItem');
+    // Generate a random color
+    var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    // Change the background color of the list item
+    listItem.style.backgroundColor = randomColor;
+  }
+</script>
+
+</body>
+</html>
