@@ -18,6 +18,8 @@
         </div>
       </div>
     </section>	
+	
+
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container-fluid px-0">
 				<div class="row no-gutters">
@@ -50,7 +52,10 @@
 				</div>
 			</div>
 	</section>
-    <section class="services-section ftco-section">
+
+	
+      	<!--services-->
+		  <section class="services-section ftco-section">
       <div class="container">
       	<div class="row justify-content-center pb-3">
           <div class="col-md-10 heading-section text-center ftco-animate">
@@ -217,7 +222,10 @@
         </div>
     	</div>
     </section>
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
+   
+	
+	<!--gallery-->
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
     	<div class="container">
     		<div class="row no-gutters justify-content-center mb-5 pb-2">
           <div class="col-md-6 text-center heading-section ftco-animate">
@@ -500,8 +508,5 @@
       </div>
     </section>
 
-	
 	<!-- Footer -->
-  
-
 	<?php include_once('temp_break/footer.php'); ?>

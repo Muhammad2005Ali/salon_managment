@@ -1,9 +1,9 @@
 
-<?php include_once('temp_break/header.php'); ?>
-<?php include_once('temp_break/navbar.php'); ?>
-
-
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-1.jpg');" data-stellar-background-ratio="0.5">
+	 <?php include_once('temp_break/header.php'); ?>
+	 <?php include_once('temp_break/navbar.php'); ?>
+	 
+    <!-- END nav -->
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -209,5 +209,5 @@
         </div>
 			</div>
 		</section>
-
-<?php include_once('temp_break/footer.php'); ?>
+	<!-- Footer -->
+	<?php include_once('temp_break/footer.php'); ?>
